@@ -78,3 +78,60 @@
 //     director[prompt("key")]=prompt("value")
 // }
 // console.log(director);
+
+// var userObject= {}
+// for (var i=0; i<4;i++) {
+//     document.write(userObject[prompt("key")]= prompt("value")+"<div>");
+// }
+
+// var carsArray= []
+// for (var i=0; i<4;i++) {
+//     var carObject= {}
+//     carObject.carName= prompt("company"),
+//     carObject.carColor=prompt("car color"),
+//     carObject.carKm=prompt("car KM"),
+//     carObject.carYear=+prompt("car year")
+//     carsArray.push(carObject)
+//     document.write("<div>"+carObject.carName+carObject.carColor+carObject.carKm+carObject.carYear+"<div>");
+// }
+// console.log(carsArray);
+
+// function catfunction () {
+//     for (var i=0; i<3;i++) {
+//         var cat= {}
+//         cat.catName= prompt ("cat name")
+//         cat.catYear= +prompt ("cat year")
+//         cat.catType= prompt ("cat type")
+//         cat.catWeigth= prompt("cat weigth")
+//         document.write ("<h1>"+cat.catName+cat.catYear+cat.catType+cat.catWeigth+"<h1>")
+//     }
+// }
+// catfunction()
+
+// function dogFunction () {
+//     for (var i=0; i<3;i++) {
+//         var dog= {}
+//         dog.dogName= prompt ("dog name")
+//         dog.dogAge= prompt ("dog year")
+//         dog.dogType= prompt ("dog type")
+//         dog.dogOwner= prompt ("dog owner")
+//         document.write ("<p>"+dog.dogName+dog.dogAge+dog.dogType+dog.dogOwner+"<p>")
+
+//     }
+// }
+// dogFunction()
+
+// function bugFunction () {
+//     for (var i=0; i<3;i++) {
+//         var bug= {}
+//         bug.bugName= prompt("bug name")
+//         bug.ScientificName= prompt ("Scientific name")
+//         bug.legs= prompt ("number of legs")
+//         bug.wings= prompt("have wings?")
+//         if (bug.wings=="yes") {
+//             document.write("<h3>"+bug.bugName+" "+bug.ScientificName+" "+bug.bugName+" "+bug.wings+"<h3>")
+//         }
+//     }  
+// }
+// bugFunction ()
+
